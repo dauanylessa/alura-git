@@ -1,0 +1,26 @@
+git add .      			   --> Adiciona todos os arquivo alterados ao index
+git commit -m  			   --> Confirma as alterações no repositório local
+git push       			   --> Envia as alterações para o repositório remoto
+git remote -v  			   --> Mostra a url do repositório remoto
+git remote set-url origin git@hostname:USERNAME/REPOSITORY.git --> Troca a url do servidor
+git init       			   --> Inicia uma nova configuração do git
+git branch 			   --> List as branchs locais
+git branch -r		 	   --> List as branchs remotas
+git branch [Nome da branch] 	   --> Cria uma nova branch
+git status     			   --> Monstra a branch atual (sempre olhar antes de desenvolver)
+git pull       			   --> Atualiza a branch atual com o conteúdo do servidor. 
+git checkout   			   --> Alterna entre branch's
+git branch -D [Nome da branch]     --> Remove uma branch
+git log        			   --> Exibe o log
+git push origin dev	           --> Faz o push no servidor criando uma nova branch
+git --help 			   --> Help
+git config --local user.name = ""  --> Configura o nome do desenvolvedor
+git config --local user.email = "" --> Configura o e-mail do desenvolvedor
+git rm --cached index.html         --> Tira do commit realizado.
+git restore index.html             --> Restaura para a versão anterior. (Antes do add - Restaura para como estava antes, considerando que ainda não colocou no stage "antes do add...").
+git restore --staged index.html    --> Tira do stage (desfaz o add), para restaurar de fato, é necessário utilizar o comando anterior logo na sequencia.
+
+
+
+ 
+
