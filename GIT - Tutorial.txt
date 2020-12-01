@@ -17,7 +17,8 @@ git push       			   --> Envia as alterações para o repositório remoto
 git branch -D [Nome da branch]     --> Remove uma branch
 git log        			   --> Exibe o log
 git log --oneline		   --> Exibe o log resumido
-git log -p			   --> Exibe completo
+git log -p			   --> Exibe com mais detalhes, incluindo o conteúdo.
+git log --graph			   --> Exibe o gráfico da ramificação.
 git push origin dev	           --> Faz o push no servidor criando uma nova branch
 git config --local user.name = ""  --> Configura o nome do desenvolvedor
 git config --local user.email = "" --> Configura o e-mail do desenvolvedor
@@ -26,6 +27,7 @@ git config user.email              --> Exibir o e-mail
 git rm --cached index.html         --> Tira do commit realizado.
 git restore index.html             --> Restaura para a versão anterior. (Antes do add - Restaura para como estava antes, considerando que ainda não colocou no stage "antes do add...").
 git restore --staged index.html    --> Tira do stage (desfaz o add), para restaurar de fato, é necessário utilizar o comando anterior logo na sequencia.
+git rebase nomeDaBranch            --> 
 git --help 			   --> Help
 
 
