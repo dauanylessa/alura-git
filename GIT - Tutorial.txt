@@ -27,7 +27,7 @@ git config user.email              --> Exibir o e-mail
 git rm --cached index.html         --> Tira do commit realizado.
 git restore index.html             --> Restaura para a versão anterior. (Antes do add - Restaura para como estava antes, considerando que ainda não colocou no stage "antes do add...").
 git restore --staged index.html    --> Tira do stage (desfaz o add), para restaurar de fato, é necessário utilizar o comando anterior logo na sequencia.
-git rebase nomeDaBranch            --> 
+git rebase nomeDaBranch            --> Ao contrario go marge, que unifica as branchs, o rebase reaplica os commits da outra branch na branch destino.
 git --help 			   --> Help
 
 
